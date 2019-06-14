@@ -28,8 +28,8 @@ permalink: pretty
 logo: "https://pbs.twimg.com/profile_images/1074762026415677443/u88ZGXCM_400x400.jpg"
 
 # Pagination
-paginate: 5
-paginate_path: blog/page:num
+# paginate: 5
+# paginate_path: blog/page:num
 
 # Header nav
 navigation_header:
@@ -37,20 +37,8 @@ navigation_header:
   url: /
 - title: About
   url: /about/
-- title: Blog
-  url: /blog/
 
 # Footer nav
 navigation_footer:
 - title: Back to top
   url: "#top"
-
-# Collections
-collections:
-  posts:
-    title: Posts
-    output: true
-    description: "My thoughts and ideas"
-    feature_text: |
-      Welcome to my blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
